@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Documentação</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <h2>Documentação</h2>
+    <h3>Display:Flex</h3>
+    <p class="descricao-propriedade"></p>
+        A propriedade display: flex deve ser a primeira a ser declarada no CSS. A partir
+        dela é que o CSS vai entender que precisa estilizar o conteudo do contêiner com 
+        Caixa Flexivel (Flexbox)
+    </p>
+    <p>Exemplo:
+
+        <!-- Abreviações Emmet: p.conteiner
+                div.conteiner
+                div.contido
+        -->
+
+        <div class="conteiner display-flex">
+            <div class="contido"></div>
+            <div class="contido"></div>
+            <div class="contido"></div>
+            <div class="contido"></div>
+            <div class="contido"></div>
+        </div>    
+
+        <table>
+            <caption>Valores padrão das propriedades do Flexbox</caption>
+            <tr>
+                <th class="propriedade">propriedade</th>
+                <th class="valor">valor</th>
+            </tr>
+            <tr>
+                <td class="propriedade">flex-direction</td>
+                <td class="valor">row</td>
+            </tr>
+            <tr>
+                <td class="propriedade">jutify-content</td>
+                <td class="valor">flex-start</td>
+            </tr>
+            <tr>
+                <td class="propriedade">align-content</td>
+                <td class="valor">flex-start</td>
+            </tr>
+        </table>
+
+
+
+        <h3>jutify-content:</h3>
+        <h4>center</h4>
+        <p class="descricao-propriedade"></p>
+
+        <p class="descricao-propriedade"></p>
+        A Propriedade justify-content pode ser usada  para justificar
+        o conteudo do elemento, contêiner em seu eixo primario, ou seja, eixo X (row, row-reverse) ou eixo y (column, column-reverse)
+
+        <p>Exemplo</p>
+        <div class="conteiner display-flex">
+            <div class="contido"></div>
+            <div class="contido"></div>
+            <div class="contido"></div>
+            <div class="contido"></div>
+            <div class="contido"></div>
+        </div>    
+
+        <p>Space Around</p>
+        <div class="conteiner display-flex justify-content-Space-around ">
+            <div class="contido">1</div>
+            <div class="contido">2</div>
+            <div class="contido">3</div>
+            <div class="contido">4</div>
+            <div class="contido">5</div>
+        </div>    
+        <p>Space Around</p>
+        <div class="conteiner display-flex justify-content-Space-Between">
+            <div class="contido">1</div>
+            <div class="contido">2</div>
+            <div class="contido">3</div>
+            <div class="contido">4</div>
+            <div class="contido">5</div>
+        </div>    
+
+        <p>Space Between</p>
+        <div class="conteiner display-flex justify-content-Space-Between">
+            <div class="contido"></div>
+            <div class="contido"></div>
+            <div class="contido"></div>
+            <div class="contido"></div>
+            <div class="contido"></div>
+        </div>    
+
+
+    </p>    
+</body>
+</html>
