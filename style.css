@@ -23,21 +23,28 @@ h1, h2, h3 {
 }
 
 h1{
-    font-size: 32pt;
+    font-size: 20pt;
+    margin-top: 10px;
 }
 
 h2{
-    font-size: 28pt;
+    font-size: 20pt;
     margin-top: 10px;
 }
 
 h3 {
-    font-size: 22pt;
+    font-size: 20pt;
+    margin-top: 10px;
 }
 
 h4 {
-    font-size: 18;
+    font-size: 20;
+    margin-top: 10px;
 }
+h5 {
+    font-size: 20pt;
+    margin-top: 10px;
+}    
 
 p, table {
     margin: 20px 0;
@@ -79,13 +86,10 @@ p {
 .display-flex {
     display: flex;
 }
-
-
 .justify-content-center {
     justify-content: flex-start;
     width: 40px;
 }
-
 .justify-content-Space-around {
     justify-content: space-around;
 }
@@ -94,5 +98,31 @@ p {
     justify-content: space-between;
 }
 
+.justify-content-Space-Evenly {
+    justify-content: space-evenly;
+}
+.justify-content-Center {
+    justify-content: center;
+}
+.justify-content-Start {
+    justify-content: start;
+}
+.justify-content-Flex-End {
+    justify-content:flex-end;
+}
 
+.flex-direction-row {
+    flex-direction:row;
+}
 
+.flex-direction-row-reverse {
+    flex-direction:row-reverse;
+}    
+
+.flex-direction-column {
+    flex-direction:column;
+}    
+
+.flex-direction-column-reverse {
+    flex-direction:column-reverse;
+}    

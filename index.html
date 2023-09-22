@@ -15,7 +15,7 @@
         dela é que o CSS vai entender que precisa estilizar o conteudo do contêiner com 
         Caixa Flexivel (Flexbox)
     </p>
-    <p>Exemplo:
+    <p>Exemplo:</p>
 
         <!-- Abreviações Emmet: p.conteiner
                 div.conteiner
@@ -23,11 +23,11 @@
         -->
 
         <div class="conteiner display-flex">
-            <div class="contido"></div>
-            <div class="contido"></div>
-            <div class="contido"></div>
-            <div class="contido"></div>
-            <div class="contido"></div>
+            <div class="contido">1000</div>
+            <div class="contido">1001</div>
+            <div class="contido">1002</div>
+            <div class="contido">1003</div>
+            <div class="contido">1004</div>
         </div>    
 
         <table>
@@ -60,41 +60,110 @@
         A Propriedade justify-content pode ser usada  para justificar
         o conteudo do elemento, contêiner em seu eixo primario, ou seja, eixo X (row, row-reverse) ou eixo y (column, column-reverse)
 
-        <p>Exemplo</p>
+        <p>Exemplo de Justify Content</p>
         <div class="conteiner display-flex">
-            <div class="contido"></div>
-            <div class="contido"></div>
-            <div class="contido"></div>
-            <div class="contido"></div>
-            <div class="contido"></div>
+            <div class="contido">1</div>
+            <div class="contido">2</div>
+            <div class="contido">3</div>
+            <div class="contido">4</div>
+            <div class="contido">5</div>
         </div>    
 
-        <p>Space Around</p>
+        <p>Space Around Os itens são distribuídos uniformemente dentro do contêiner de alinhamento ao longo do eixo principal. O espaçamento entre cada par de itens adjacentes é o mesmo. O espaço vazio antes do primeiro e depois do último item é igual a metade do espaço entre cada par de itens adjacentes.</p>
+
         <div class="conteiner display-flex justify-content-Space-around ">
-            <div class="contido">1</div>
-            <div class="contido">2</div>
-            <div class="contido">3</div>
-            <div class="contido">4</div>
-            <div class="contido">5</div>
+            <div class="contido">6</div>
+            <div class="contido">7</div>
+            <div class="contido">8</div>
+            <div class="contido">9</div>
+            <div class="contido">10</div>
         </div>    
-        <p>Space Around</p>
+        <p>Space Between cria um espaçamento igual entre os elementos, mantendo o primeiro grudado no início e o último no final.</p>
         <div class="conteiner display-flex justify-content-Space-Between">
-            <div class="contido">1</div>
-            <div class="contido">2</div>
-            <div class="contido">3</div>
-            <div class="contido">4</div>
-            <div class="contido">5</div>
+            <div class="contido">11</div>
+            <div class="contido">12</div>
+            <div class="contido">13</div>
+            <div class="contido">14</div>
+            <div class="contido">15</div>
         </div>    
 
-        <p>Space Between</p>
-        <div class="conteiner display-flex justify-content-Space-Between">
-            <div class="contido"></div>
-            <div class="contido"></div>
-            <div class="contido"></div>
-            <div class="contido"></div>
-            <div class="contido"></div>
-        </div>    
+        <p>Space Evenly o espaço é distribuido igualmente entre cada elemento adjacente, ou seja, um ao lado do outro, com exceção do primeiro e último.</p>
+        <div class="conteiner display-flex justify-content-Space-Evenly">
+            <div class="contido">16</div>
+            <div class="contido">17</div>
+            <div class="contido">18</div>
+            <div class="contido">19</div>
+            <div class="contido">20</div>
+        </div>
+        
+        <p>Center:os ítens são centralizados na linha.</p>
+        <div class="conteiner display-flex justify-content-Center">
+            <div class="contido">21</div>
+            <div class="contido">22</div>
+            <div class="contido">23</div>
+            <div class="contido">24</div>
+            <div class="contido">25</div>
+        </div>
+        
+        <p>Start:Os itens são alinhados ao centro do eixo principal.</p>
+        <div class="conteiner display-flex justify-content-Start">
+            <div class="contido">26</div>
+            <div class="contido">27</div>
+            <div class="contido">28</div>
+            <div class="contido">29</div>
+            <div class="contido">30</div>
+        </div>
 
+        <p>End:Os itens são alinhados ao final do eixo principal.</p>
+        <div class="conteiner display-flex justify-content-Flex-End">
+            <div class="contido">31</div>
+            <div class="contido">32</div>
+            <div class="contido">33</div>
+            <div class="contido">34</div>
+            <div class="contido">35</div>
+        </div>
+
+
+        <h5>Flex Directions</h5>
+        <p>ROW</p>
+        <p>O eixo principal do flex container é definido para ser o mesmo que a direção do texto. Os pontos de início e término principais são iguais à direção do conteúdo.</p>
+        <div class="conteiner display-flex flex-direction-row">
+            <div class="contido">36</div>
+            <div class="contido">37</div>
+            <div class="contido">38</div>
+            <div class="contido">39</div>
+            <div class="contido">40</div>
+        </div>
+
+        <p>ROW-REVERSE</p>
+        <p>Se comporta da mesma forma que row porém os pontos de início e término serão invertidos (permutados).</p>
+        <div class="conteiner display-flex flex-direction-row-reverse">
+            <div class="contido">41</div>
+            <div class="contido">42</div>
+            <div class="contido">43</div>
+            <div class="contido">44</div>
+            <div class="contido">45</div>
+        </div>
+
+        <p>COLUMN</p>
+        <p>O eixo principal do flex container é igual ao eixo do bloco. Os pontos de início e término principais são iguais aos pontos de antes e depois do modo de escrita.</p>
+        <div class="conteiner display-flex flex-direction-column">
+            <div class="contido">41</div>
+            <div class="contido">42</div>
+            <div class="contido">43</div>
+            <div class="contido">44</div>
+            <div class="contido">45</div>
+        </div>
+
+        <p>COLUMN REVERSE</p>
+        <p>Se comporta da mesma forma que column porém os pontos de início e término serão invertidos (permutados).</p>
+        <div class="conteiner display-flex flex-direction-column-reverse">
+            <div class="contido">41</div>
+            <div class="contido">42</div>
+            <div class="contido">43</div>
+            <div class="contido">44</div>
+            <div class="contido">45</div>
+        </div>
 
     </p>    
 </body>
