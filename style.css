@@ -44,7 +44,12 @@ h4 {
 h5 {
     font-size: 20pt;
     margin-top: 10px;
-}    
+}  
+
+h6 {
+    font-size: 20pt;
+    margin-top: 10px;
+}  
 
 p, table {
     margin: 20px 0;
@@ -71,7 +76,7 @@ p {
 }
 
 .conteiner {
-    height: 300px;
+    height: 700px;
     background-color: antiquewhite;
     border: 5px solid #ff0000;
 }
@@ -83,6 +88,14 @@ p {
     background-color: aqua;
     border: 5px solid #0000ff;
 }
+
+.contido-align {
+    width: auto;
+    height: 100px;
+    background-color: aqua;
+    border: 5px solid #0000ff;
+}    
+
 .display-flex {
     display: flex;
 }
@@ -126,3 +139,23 @@ p {
 .flex-direction-column-reverse {
     flex-direction:column-reverse;
 }    
+.flex-direction-initial {
+    flex-direction:initial;
+}
+
+.flex-direction-inherit {
+    flex-direction:inherit;
+}
+
+.display-flex-align {
+    align-items:stretch;
+}
+
+.display-flex-align-center {
+    align-items:center;
+}
+.display-flex-align-start {
+    align-items:start;
+}
+
+
