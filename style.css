@@ -32,16 +32,16 @@ h2{
     margin-top: 10px;
 }
 
-h3 {
+h3{
     font-size: 20pt;
     margin-top: 10px;
 }
 
-h4 {
+h4{
     font-size: 20;
     margin-top: 10px;
 }
-h5 {
+h5{
     font-size: 20pt;
     margin-top: 10px;
 }  
@@ -49,8 +49,17 @@ h5 {
 h6 {
     font-size: 20pt;
     margin-top: 10px;
+} 
+
+h7 {
+    font-size: 20pt;
+    margin-top: 10px;
 }  
 
+h8 {
+    font-size:20pt;
+    margin-top: 10px;
+}
 p, table {
     margin: 20px 0;
 
@@ -157,5 +166,18 @@ p {
 .display-flex-align-start {
     align-items:start;
 }
+.display-flex-wrap-nowrap {
+    flex-wrap: nowrap;
+}
 
+.display-flex-wrap-wrap {
+    flex-wrap: wrap;
+}
 
+.display-flex-wrap-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.display-flex-flow-row-wrap {
+    flex-flow: row;
+}
