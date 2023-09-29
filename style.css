@@ -18,51 +18,18 @@ body {
     margin: auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    font-size: 20pt;
+h1, h2, h3, h4, h5{
+    font-size: 30pt;
     margin-top: 10px;
 }
 
-h2{
-    font-size: 20pt;
-    margin-top: 10px;
-}
 
-h3{
-    font-size: 20pt;
-    margin-top: 10px;
-}
-
-h4{
-    font-size: 20;
-    margin-top: 10px;
-}
-h5{
-    font-size: 20pt;
-    margin-top: 10px;
-}  
-
-h6 {
-    font-size: 20pt;
-    margin-top: 10px;
-} 
-
-h7 {
-    font-size: 20pt;
-    margin-top: 10px;
-}  
-
-h8 {
-    font-size:20pt;
-    margin-top: 10px;
-}
 p, table {
-    margin: 20px 0;
-
+    margin: 25px 0;
 }
 
 td, th, caption  {
@@ -86,23 +53,29 @@ p {
 
 .conteiner {
     height: 700px;
-    background-color: antiquewhite;
-    border: 5px solid #ff0000;
+    background-color: rgb(128, 130, 133);
+    border: 5px solid #180808;
 }
 
 
 .contido {
     width: 100px;
     height: 100px;
-    background-color: aqua;
+    background-color: rgb(255, 102, 0);
     border: 5px solid #0000ff;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 90px;
+    font-style: italic;
 }
 
 .contido-align {
     width: auto;
     height: 100px;
     background-color: aqua;
-    border: 5px solid #0000ff;
+    border: 5px solid #12124d;
+    text-align: center;
+    line-height: 90px;
 }    
 
 .display-flex {
@@ -181,3 +154,20 @@ p {
 .display-flex-flow-row-wrap {
     flex-flow: row;
 }
+
+.display-flex-align-content-start {
+    flex-wrap: wrap;
+    align-content: start;
+}
+.display-flex-align-content-space-between {
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.display-flex-align-content-space-around {
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+
+
